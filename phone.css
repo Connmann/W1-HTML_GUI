@@ -41,6 +41,14 @@ label {
 	width: 95px;
 }
 
+#numberDial:hover {
+	background-color: #0ea329;
+}
+
+#numberClear:hover {
+	background-color: #dd3208;
+}
+
 .tabButton {
 	padding: 10px;
 	font-size: 18px;
@@ -75,5 +83,5 @@ label {
 #addContact_add, #addContact_clear {
 	font-size: 16px;
 	padding: 10px;
-	margin: 5px;
+	margin-right: 5px;
 }
