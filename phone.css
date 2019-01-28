@@ -1,0 +1,79 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+button {
+	background-color: #a3a3a3;
+	color: #f7f7f7;
+	border: none;
+	text-align: center;
+}
+
+button:hover {
+	background-color: #484077;
+}
+
+input {
+	font-size: 16px;
+	padding: 8px;
+	border-radius: 10px;
+	border: 2px solid #484077;
+}
+
+label {
+	margin-bottom: 30px;
+}
+
+#dialerInput {
+	width: 200px;
+	margin: 5px;
+}
+
+.dialerButton {
+	font-size: 16px;
+	padding: 10px;
+	width: 60px;
+	margin: 5px;
+	float: left;
+}
+
+#numberDial, #numberClear {
+	width: 95px;
+}
+
+.tabButton {
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 3px;
+}
+
+#tab_bar {
+	width: 100%;
+	border-bottom: 5px solid #484077;
+}
+
+.dialerRow {
+	clear: both;
+}
+
+#contactsWrapper {
+	width: 400px;
+}
+
+.contactEntry {
+	font-size: 16px;
+	padding: 10px;
+	margin: 5px;
+	float: left;
+}
+
+.pageHeader {
+	color: #484077;
+}
+
+#addContact_add, #addContact_clear {
+	font-size: 16px;
+	padding: 10px;
+	margin: 5px;
+}

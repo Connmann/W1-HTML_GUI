@@ -1,0 +1,98 @@
+<html>
+  <head>
+  	<link rel="stylesheet" href="phone.css">
+    <title>Phone Demo Interface</title>
+  </head>
+  <body>
+    <div id="tab_bar">
+    	<button class="tabButton" id="dialer">Dialer</button>
+    	<button class="tabButton" id="contacts">Contact List</button>
+    	<button class="tabButton" id="addContact">Add Contact</button>
+    </div>
+
+    <div id="content">
+    	<div id="content_dialer">
+
+    		<h1 class="pageHeader">Dialer</h1>
+
+    		<form>
+				<input id="dialerInput">
+			</form>
+
+    		<div class="dialerRow">
+    			<button class="dialerButton" id="number1">1</button>
+	    		<button class="dialerButton" id="number2">2</button>
+	    		<button class="dialerButton" id="number3">3</button>
+    		</div>
+    		
+    		<div class="dialerRow">
+    			<button class="dialerButton" id="number4">4</button>
+	    		<button class="dialerButton" id="number5">5</button>
+	    		<button class="dialerButton" id="number6">6</button>
+    		</div>
+
+    		<div class="dialerRow">
+    			<button class="dialerButton" id="number7">7</button>
+	    		<button class="dialerButton" id="number8">8</button>
+	    		<button class="dialerButton" id="number9">9</button>
+    		</div>
+
+    		<div class="dialerRow">
+    			<button class="dialerButton" id="numberStar">*</button>
+	    		<button class="dialerButton" id="number0">0</button>
+	    		<button class="dialerButton" id="numberPound">#</button>
+    		</div>
+
+    		<div class="dialerRow">
+    			<button class="dialerButton" id="numberDial">Dial</button>
+	    		<button class="dialerButton" id="numberClear">Clear</button>
+    		</div>
+    		
+    	</div>
+
+    	<div id="content_contacts">
+
+    		<h1 class="pageHeader">Contact List</h1>
+
+	    	<div id="contactsWrapper">
+	    		<button class="contactEntry">Jane Smith</button>
+	    		<button class="contactEntry">Connor Guerin</button>
+	    		<button class="contactEntry">John Doe</button>
+	    		<button class="contactEntry">Mrs. Butterworth</button>
+	    		<button class="contactEntry">Aunt Jemima</button>
+	    		<button class="contactEntry">Bob Pancakes</button>
+	    		<button class="contactEntry">Johnny Waffles</button>
+	    		<button class="contactEntry">Kevin</button>
+	    	</div>
+
+    	</div>
+
+    	<div id="content_addContact">
+    		<h1 class="pageHeader">Add Contact</h1>
+
+    		<form>
+			  	<label for="name">Name:</label>
+			  	<input id="name" placeholder="Jane Smith">
+			</form>
+
+			<form>
+			  	<label for="phoneNumber">Phone Number:</label>
+			  	<input id="phoneNumber" placeholder="303-123-4567">
+			</form>
+
+			<form>
+			  	<label for="email">Email Address:</label>
+			  	<input id="email" placeholder="jane@colorado.edu">
+			</form>
+
+			<button id="addContact_add">Add Contact</button>
+	    	<button id="addContact_clear">Clear</button>
+
+    	</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="phone.js"></script>
+
+  </body>
+</html>
